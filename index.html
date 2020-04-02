@@ -23,11 +23,12 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfsPrbPUfrtRDDbHBG7LsmHCouRzDuzXSSyqwq9HglCyexgjw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+			<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfsPrbPUfrtRDDbHBG7LsmHCouRzDuzXSSyqwq9HglCyexgjw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" onclick="fadeOut('signup-form')">
 				<input type="name" name="entry.1264910637" id="entry.1264910637" placeholder="Name" />
 				<input type="email" name="entry.1665484488" id="entry.1665484488" placeholder="Email Address" />
 				<input type="submit" value="Sign Up" />
 			</form>
+			<div name="message" id="message"></div> 
 			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
 		<!-- Footer -->
@@ -42,10 +43,10 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<script type="text/javascript">var submitted=false;</script>
 			<script type="text/javascript">
-			$('#signup-form').on('submit', function(e) {
-  				$('#signup-form *').fadeOut(4000);
-  				$('#signup-form').append('Thanks! We will get back to you soon.');
-  				});
+				function fadeOut(id) {
+ 					$('#signup-form').hide();
+ 					$('#message').append('Thanks! We will get back to you soon.');
+				}
 			</script>
 
 	</body>
