@@ -23,12 +23,12 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfsPrbPUfrtRDDbHBG7LsmHCouRzDuzXSSyqwq9HglCyexgjw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" onclick="fadeOut('signup-form')">
+			<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfsPrbPUfrtRDDbHBG7LsmHCouRzDuzXSSyqwq9HglCyexgjw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" >
 				<input type="name" name="entry.1264910637" id="entry.1264910637" placeholder="Name" />
 				<input type="email" name="entry.1665484488" id="entry.1665484488" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
+				<input type="submit" value="Sign Up" onclick="fadeOut('signup-form')" />
 			</form>
-			<div name="message" id="message"></div> 
+			<div name="message" id="message" />
 			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
 		<!-- Footer -->
