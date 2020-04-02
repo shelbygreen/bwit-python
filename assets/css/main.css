@@ -1083,7 +1083,7 @@
 
 				#signup-form input[type="type"],
 				#signup-form input[type="password"],
-				#signup-form input[type="email"] 
+				#signup-form input[type="email"],
 				#signup-form input[type="name"]{
 					width: 100%;
 				}
