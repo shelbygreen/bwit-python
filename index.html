@@ -26,7 +26,7 @@
 			<form name="signup-form" id="signup-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfsPrbPUfrtRDDbHBG7LsmHCouRzDuzXSSyqwq9HglCyexgjw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 				<input type="name" name="entry.1264910637" id="entry.1264910637" placeholder="Name" />
 				<input type="email" name="entry.1665484488" id="entry.1665484488" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
+				<input type="submit" name="submit-form" value="Sign Up" />
 			</form>
 			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
@@ -42,14 +42,9 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<script type="text/javascript">var submitted=false;</script>
 			<script type="text/javascript">
-				function myFunction() {
-  					alert("Thanks! We will get back to you soon.");
-				}
-			</script>
-			<script type="text/javascript">
 			$('#signup-form').on('submit', function(e) {
-  				$('#signup-form').fadeOut(2000);
-  				$('#signup-form').prepend('Thanks! We will get back to you soon.');
+  				$('#signup-form').fadeOut(4000);
+  				$('#submit-form').prepend('Thanks! We will get back to you soon.');
   				});
 			</script>
 
