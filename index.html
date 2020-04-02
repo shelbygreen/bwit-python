@@ -28,7 +28,6 @@
 				<input type="email" name="entry.1665484488" id="entry.1665484488" placeholder="Email Address" />
 				<input type="submit" value="Sign Up" />
 			</form>
-			<span id="notice" style="display:none;">Thanks! We will get back to you soon.</span>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -39,6 +38,13 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">var submitted=false;</script>
+			<script type="text/javascript">
+			$('#signup-form').on('submit', function(e) {
+  				$('#signup-form *').fadeOut(2000);
+  				$('#signup-form').prepend('Thanks! We will get back to you soon.');
+  				});
+			</script>
 
 	</body>
 </html>
