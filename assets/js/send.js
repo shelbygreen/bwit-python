@@ -1,4 +1,4 @@
-$('#contact_form').submit(function() {
+$('#signup-form').submit(function() {
 		var email = $("#email").val();
 var dataString = 'email=' + email;
 		$.ajax({
