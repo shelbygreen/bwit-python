@@ -1056,9 +1056,9 @@
 
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
-		#signup-form input[type="email"]
+		#signup-form input[type="email"],
 		#signup-form input[type="name"]{
-			width: 18em;
+			width: 10em;
 		}
 
 		#signup-form > * {
