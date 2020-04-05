@@ -14,4 +14,4 @@ deepen their understanding of the language and modern programming idioms.
 * [Black Tech Pipeline](https://twitter.com/BTPipeline): A service based platform connecting opportunity extenders with Black technologists
 
 
-If you have a resource to share, feel free to send me a message on Slack!
+If you have a resource to share, feel free to send us a message on Slack!
