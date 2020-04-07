@@ -5,6 +5,7 @@
 
 ### Job Boards
 * [Hacker Hiring Network](https://hiring.ben.church/): A job board specially for tech-related positions.
+* [Code for America's Public Interest Tech Job Board](https://jobs.codeforamerica.org/): This job board is a collection of curated opportunities in public interest technology. We believe that people with design, product, analytical, and technical expertise can make a difference in how government works. 
 
 ### Books
 * [Python Cookbook](https://d.cxcore.net/Python/Python_Cookbook_3rd_Edition.pdf): A book aimed at more experienced Python programmers who are looking to
