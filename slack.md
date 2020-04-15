@@ -1,5 +1,5 @@
 ## Getting Started 
-If you haven't already, go ahead and introduce yourself in the [#introductions](https://bwitp.slack.com/) channel. Please share your interests, hobbies, career status/future goals, or whatever! This is a good way to meet others with similar interests. :wink:
+If you haven't already, go ahead and introduce yourself in the [#introductions](30daypythonchallenge.slack.com) channel. Please share your interests, hobbies, career status/future goals, or whatever! This is a good way to meet others with similar interests. :wink:
 
 Example:
 
@@ -8,7 +8,7 @@ Example:
 
 If you are new to Slack, then [here's](https://slack.com/help/articles/115004071768-What-is-Slack-) a quick rundown of how it works. Channels are a good way to keep conversations under the :umbrella: of a specific topic or context. Channels appear on the upper left side bar of the Slack UI.
 
-Channel topics can be specific to weekly assignments like [#week0](https://bwitp.slack.com/), [#week1](https://bwitp.slack.com/), [#week2](https://bwitp.slack.com/), etc. We also have a channel called [#help](https://bwitp.slack.com/) for general Python questions, if no dedicated channel exists for your question; and lastly, we have channels for talking about things other than Python, such as  [#random](https://bwitp.slack.com/) for general conversation. Please explore and join as many channels as interest you -- and if you have a suggestion for a new channel, feel free to start a discussion about it in our [#community](https://bwitp.slack.com/) channel.
+Channel topics can be specific to the challenge assignments like [#week0:5](h30daypythonchallenge.slack.com) or more general. In the channel [#python-programming](30daypythonchallenge.slack.com), you can discuss anything related to Python (outside of the challenge content). It will be used for general Python questions or discussions. And we have a channel for talking about things other than Python, such as [#random](30daypythonchallenge.slack.com) for general conversation. Please explore and join as many channels as interest you -- and if you have a suggestion for a new channel, feel free to start a discussion about it in our [#general](30daypythonchallenge.slack.com) channel.
 
 ### Asking Questions
 
@@ -20,7 +20,7 @@ Asking good questions can be hard, generally it's best to say what you are tryin
 
 ### Cross posting
 
-Please try to refrain from cross-posting in multiple channels. If you have asked your question in a channel and have waited a while you can move to a more [#random](https://bwitp.slack.com/) channel. In order to cross-post, find your chat message and [share the message](https://get.slack.help/hc/en-us/articles/203274767-Share-messages-in-Slack) in the other channel.
+Please try to refrain from cross-posting in multiple channels. If you have asked your question in a channel and have waited a while you can move to a more [#random](30daypythonchallenge.slack.com) channel. In order to cross-post, find your chat message and [share the message](https://get.slack.help/hc/en-us/articles/203274767-Share-messages-in-Slack) in the other channel.
 
 ### Code samples
 
@@ -30,7 +30,7 @@ If your code sample contains many lines, or is complicated code that can benefit
 
 ### Self promotion and shameless plugs
 
-To help prevent spam, and a wall of text in [#random](https://bwitp.slack.com/) and other very active channels, we have [#show_and_tell](https://app.slack.com/client/T07EFKXHR/C3GFPUBGF) to talk about your product, showcase it, ask for advice, or to ask people to try it out. These posts should only be in this channel and hence are not desired in other channels. We want to keep this a friendly place and we thought a channel dedicated to showcasing your work would work best.
+To help prevent spam, and a wall of text in [#random](30daypythonchallenge.slack.com) and other channels, we have [#python-programming](30daypythonchallenge.slack.com) to talk about any programming products, showcase it, ask for advice, or to ask people to try it out. These posts should only be in this channel and hence are not desired in other channels. 
 
 ### Slash commands
 
